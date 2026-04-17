@@ -1,0 +1,15 @@
+# ─── Orquestación ────────────────────────────────────────────────────────────
+# NOTA: Airflow 2.x requiere Python <3.13.
+# En Python 3.13 usar apache-airflow>=3.1.8
+apache-airflow>=3.1.8
+apache-airflow-providers-postgres>=6.0.0
+
+# ─── Procesamiento de Datos ───────────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.23.0
+
+# ─── Base de Datos ───────────────────────────────────────────────────────────
+psycopg2-binary>=2.9.5
+
+# ─── Utilidades ──────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0

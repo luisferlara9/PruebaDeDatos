@@ -1,3 +1,38 @@
+# ─── Entornos virtuales ───────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env
+
+# ─── Datos generados (no versionables) ───────────────────────────────────────
+pipeline/data/*.csv
+pipeline/data/*.json
+pipeline/data/*.parquet
+
+# ─── Airflow ──────────────────────────────────────────────────────────────────
+airflow.cfg
+airflow.db
+logs/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ─── IDEs y Editores ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Sistema Operativo ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
 node_modules/
 .env
 server/.env
